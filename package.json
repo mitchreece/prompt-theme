@@ -1,0 +1,19 @@
+{
+  "name": "@mitchreece/prompt-theme",
+  "version": "1.0.1",
+  "description": "Prompt theme for zsh",
+  "scripts": {
+    "postinstall": "node install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitchreece/prompt-theme.git"
+  },
+  "author": "mitchreece <mitchellreece18@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/mitchreece/prompt-theme/issues"
+  },
+  "homepage": "https://github.com/mitchreece/prompt-theme#readme"
+}

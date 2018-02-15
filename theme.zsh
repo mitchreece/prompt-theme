@@ -1,5 +1,5 @@
 function prompt_mitch_setup {
-    PROMPT='%c %F{043}$%f '
+    PROMPT='%F{245}%c%f %F{043}$%f '
     RPROMPT=''
 }
 

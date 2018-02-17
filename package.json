@@ -1,6 +1,6 @@
 {
   "name": "@mitchreece/prompt-theme",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Prompt theme for zsh",
   "scripts": {
     "postinstall": "chmod +x ./install.sh && ./install.sh",

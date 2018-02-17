@@ -1,16 +1,16 @@
 #!/bin/bash
 
 # Name of Prompt Theme
-name=mitch
+NAME=mitch
 
 # Determine if using prezto
 if [ -d '~/.zsh' ]
 then
-    root=~/.zsh
+    ROOT_DIR=~/.zsh
 else
-    root=~/.zprezto
+    ROOT_DIR=~/.zprezto
 fi
 
-destFile=${root}/modules/prompt/functions/prompt_${name}_setup
+THEME_DEST=${ROOT_DIR}/modules/prompt/functions/prompt_${NAME}_setup
 
-cp theme.zsh $destFile
+cp theme.zsh $THEME_DEST

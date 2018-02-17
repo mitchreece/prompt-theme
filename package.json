@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Prompt theme for zsh",
   "scripts": {
-    "postinstall": "node install"
+    "postinstall": "chmod +x ./install.sh && ./install.sh"
   },
   "repository": {
     "type": "git",

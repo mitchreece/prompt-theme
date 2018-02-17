@@ -3,7 +3,8 @@
   "version": "1.0.1",
   "description": "Prompt theme for zsh",
   "scripts": {
-    "postinstall": "chmod +x ./install.sh && ./install.sh"
+    "postinstall": "chmod +x ./install.sh && ./install.sh",
+    "preuninstall": "chmod +x ./uninstall.sh && ./uninstall.sh"
   },
   "repository": {
     "type": "git",

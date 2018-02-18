@@ -50,4 +50,22 @@ If you like what you see, set and save the theme by running:
 prompt -s mitch
 ```
 
+## Uninstall
 
+If you don't like the prompt theme, uninstalling is as simple as installing. 
+
+### npm
+
+You can uninstall the prompt theme via npm by uninstalling the package:
+
+```bash
+npm uninstall -g @mitchreece/prompt-theme
+```
+
+### bash
+
+Go to the cloned repo directory and run the following in your terminal: 
+
+```bash
+chmod +x ./uninstall.sh && ./uninstall.sh
+```

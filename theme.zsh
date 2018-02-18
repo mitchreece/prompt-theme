@@ -1,3 +1,16 @@
+#
+#  Z SHELL THEME FOR PROMPT
+#
+#  Author: mitchreece <mitchellreece18@gmail.com>
+#  Repo url: https://github.com/mitchreece/prompt-theme
+#
+#  License: MIT
+#  
+
+# Prompt Color Variables
+PRIMARY_COLOR=043
+SECONDARY_COLOR=245
+
 function prompt_mitch_precmd {
     vcs_info
 }
@@ -14,8 +27,8 @@ function prompt_mitch_setup {
     zstyle ':vcs_info:*' get-revision true
     zstyle ':vcs_info:*' formats '%b'
 
-    PROMPT='%F{245}%c%f%F{043} $ %f'
-    RPROMPT='%F{043}${vcs_info_msg_0_}%f'
+    PROMPT='%F{$SECONDARY_COLOR}%c%f%F{$PRIMARY_COLOR} $ %f'
+    RPROMPT='%F{$PRIMARY_COLOR}${vcs_info_msg_0_}%f'
 }
 
 prompt_mitch_setup "$@"
